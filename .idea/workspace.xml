@@ -1,7 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="169ae46c-a323-43b3-8862-c1a32e8cd602" name="Changes" comment="" />
+    <list default="true" id="169ae46c-a323-43b3-8862-c1a32e8cd602" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/core/components/FollowerData.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/hooks/useLatestReport.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/queries/getLatestReport.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/api/auth/[...auth].ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/globals.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/refresh-token.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/migrations/.keep" beforeDir="false" afterPath="$PROJECT_DIR$/src/auth/components/Form.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/migrations/20221203221238_initial_migration/migration.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/migrations/migration_lock.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/schema.prisma" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.prisma" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/next-env.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/next-env.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pnpm-lock.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pnpm-lock.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/auth/components/SignupForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/auth/components/SignupForm.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/auth/mutations/signup.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/auth/mutations/signup.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/components/Form.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/components/Form.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/_app.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/_app.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/_document.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/_document.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.tsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,20 +43,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/leoguinan/projects/followed",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "pnpm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/leoguinan/projects/followed&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;pnpm&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;/Users/leoguinan/projects/followed/node_modules/prettier&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/leoguinan/projects/followed/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -40,7 +67,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1670105235204</updated>
-      <workItem from="1670105236816" duration="306000" />
+      <workItem from="1670105236816" duration="14750000" />
+      <workItem from="1670280716232" duration="772000" />
     </task>
     <servers />
   </component>

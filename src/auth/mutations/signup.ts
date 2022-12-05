@@ -3,6 +3,7 @@ import { resolver } from "@blitzjs/rpc"
 import db from "db"
 import { Role } from "types"
 import { Signup } from "../validations"
+import axios from "axios"
 
 export default resolver.pipe(resolver.zod(Signup), async ({ email, password }, ctx) => {
   const hashedPassword = await SecurePassword.hash(password.trim())
