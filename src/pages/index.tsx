@@ -40,11 +40,14 @@ const UserInfo = () => {
             {currentUser.twitterId && (
               <>
                 <span>Twitter Account Linked Successfully!</span>
+                <div>
+                  <FollowerData />
+                </div>
               </>
             )}
 
           </div>
-          <FollowerData />
+
         </div>
       </>
     )
