@@ -26,19 +26,16 @@ export const LoginForm = (props: LoginFormProps) => {
     }
   })
 
-  const handleSubmit = async () => {
+  const handleSubmit = async (e) => {
+    e.preventDefault()
     try {
-      const user = await loginMutation({ email, password })
-      console.log(user)
+      await loginMutation({ email, password })
       await props.onSuccess?.()
 
     } catch (error: any) {
-      if (error.code === "P2002" && error.meta?.target?.includes("email")) {
-        // This error comes from Prisma
-        return { email: "This email is already being used" }
-      } else {
-        return { [FORM_ERROR]: error.toString() }
-      }
+
+      return { [FORM_ERROR]: error.toString() }
+
     }
   }
 

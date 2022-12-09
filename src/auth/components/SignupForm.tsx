@@ -17,7 +17,8 @@ export const SignupForm = (props: SignupFormProps) => {
   const [password, setPassword] = useState("")
   const [loginMutation] = useMutation(login)
 
-  const handleSubmit = async () => {
+  const handleSubmit = async (e) => {
+    e.preventDefault()
     try {
       await signupMutation({ email, password })
       await loginMutation({ email, password })
