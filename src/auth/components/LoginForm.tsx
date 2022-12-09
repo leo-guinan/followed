@@ -30,7 +30,7 @@ export const LoginForm = (props: LoginFormProps) => {
     try {
       const user = await loginMutation({ email, password })
       console.log(user)
-      await props.onSuccess?.(user)
+      await props.onSuccess?.()
 
     } catch (error: any) {
       if (error.code === "P2002" && error.meta?.target?.includes("email")) {
