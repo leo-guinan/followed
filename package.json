@@ -27,6 +27,7 @@
     "@blitzjs/auth": "2.0.0-beta.19",
     "@blitzjs/next": "2.0.0-beta.19",
     "@blitzjs/rpc": "2.0.0-beta.19",
+    "@headlessui/react": "1.7.4",
     "@heroicons/react": "2.0.13",
     "@prisma/client": "4.6.0",
     "@superfaceai/passport-twitter-oauth2": "1.1.0",

@@ -97,6 +97,7 @@ export default api(
                 name: profile.displayName,
                 twitterId: profile.id,
                 twitterProfilePicture: profile.photos[0].value,
+                twitterUsername: profile.username,
                 twitterAccessToken: accessToken,
                 twitterRefreshToken: refreshToken,
                 clientAccountId,

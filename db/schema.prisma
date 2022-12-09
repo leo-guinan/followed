@@ -19,6 +19,7 @@ model User {
   name                  String?
   email                 String   @unique
   twitterId             String?  @unique
+  twitterUsername       String?
   twitterAccessToken    String?
   twitterRefreshToken   String?
   clientAccountId       Int?     @unique
