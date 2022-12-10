@@ -19,13 +19,6 @@ export const LoginForm = (props: LoginFormProps) => {
   const router = useRouter()
   const currentUser = useCurrentUser()
 
-  useEffect(() => {
-    console.log(currentUser)
-    if (currentUser) {
-      void router.push(Routes.Home())
-    }
-  })
-
   const handleSubmit = async (e) => {
     e.preventDefault()
     try {

@@ -39,8 +39,10 @@ const UserProfile = () => {
                 )}
                 {user && !user.twitterId && (
                   <div className="flex items-center space-x-3">
-                    <Image src={`${twitterSignin.src}`} alt="signin with Twitter" width="158px" height="28px"
-                           layout="fixed" />
+                    <a href="/api/auth/twitter" className="flex items-center space-x-2.5">
+                      <Image src={`${twitterSignin.src}`} alt="signin with Twitter" width="158px" height="28px"
+                             layout="fixed" />
+                    </a>
                   </div>
                 )}
               </div>
