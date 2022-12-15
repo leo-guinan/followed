@@ -1,7 +1,7 @@
 // src/pages/api/auth/[...auth].ts
 import { passportAuth } from "@blitzjs/auth"
 import { api } from "src/blitz-server"
-import TwitterStrategy from "@superfaceai/passport-twitter-oauth2"
+import TwitterStrategy from "passport-twitter"
 import db from "db"
 
 export default api(
@@ -16,19 +16,8 @@ export default api(
             consumerKey: process.env.TWITTER_CONSUMER_KEY as string,
             consumerSecret: process.env.TWITTER_CONSUMER_SECRET as string,
             callbackURL: process.env.TWITTER_CALLBACK_URL,
-            clientID: process.env.TWITTER_CLIENT_ID as string,
-            clientSecret: process.env.TWITTER_CLIENT_SECRET as string,
-            scope: [
-              "tweet.read",
-              "users.read",
-              "bookmark.read",
-              "follows.read",
-              "offline.access",
-              "follows.write",
-            ],
-            clientType: "private",
           },
-          async function (accessToken, refreshToken, profile, done) {
+          async function (token, tokenSecret, profile, done) {
             const userId = ctx.session.userId;
             if (!userId) {
               return done(null, false)
@@ -42,7 +31,7 @@ export default api(
               return done(null, false)
             }
 
-            const clientLoginAPI = process.env.API_URL + "/api/client/login/v2/"
+            const clientLoginAPI = process.env.API_URL + "/api/client/login/"
             let error = null
             let clientAccountId:number;
             let subscriptionId:number;
@@ -57,8 +46,8 @@ export default api(
                 twitter_id: profile.id,
                 client: "FOLLOWED",
                 email: user.email,
-                access_token: accessToken,
-                refresh_token: refreshToken,
+                access_key: token,
+                secret_access_key: tokenSecret,
               })
             })
             const json = await results.json()
@@ -98,8 +87,8 @@ export default api(
                 twitterId: profile.id,
                 twitterProfilePicture: profile.photos[0].value,
                 twitterUsername: profile.username,
-                twitterAccessToken: accessToken,
-                twitterRefreshToken: refreshToken,
+                twitterAccessTokenKey: token,
+                twitterAccessTokenSecret: tokenSecret,
                 clientAccountId,
                 subscriptionId
 

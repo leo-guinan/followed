@@ -22,6 +22,8 @@ model User {
   twitterUsername       String?
   twitterAccessToken    String?
   twitterRefreshToken   String?
+  twitterAccessTokenKey String?
+  twitterAccessTokenSecret String?
   clientAccountId       Int?     @unique
   subscriptionId        Int?     @unique
   twitterProfilePicture String?

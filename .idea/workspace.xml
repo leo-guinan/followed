@@ -5,7 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="169ae46c-a323-43b3-8862-c1a32e8cd602" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e93ad911-dbfb-42de-a379-99e7ef5c588b.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e93ad911-dbfb-42de-a379-99e7ef5c588b/storage_v2/_src_/database/bookmark_toolkit.NWQdqw.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e93ad911-dbfb-42de-a379-99e7ef5c588b/storage_v2/_src_/database/bookmark_toolkit.NWQdqw/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e93ad911-dbfb-42de-a379-99e7ef5c588b/storage_v2/_src_/database/bookmark_toolkit.NWQdqw/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e93ad911-dbfb-42de-a379-99e7ef5c588b/storage_v2/_src_/database/followed.ECD9EQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e93ad911-dbfb-42de-a379-99e7ef5c588b/storage_v2/_src_/database/followed.ECD9EQ/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e93ad911-dbfb-42de-a379-99e7ef5c588b/storage_v2/_src_/database/followed.ECD9EQ/schema/information_schema.FNRwLQ.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e93ad911-dbfb-42de-a379-99e7ef5c588b/storage_v2/_src_/database/followed.ECD9EQ/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e93ad911-dbfb-42de-a379-99e7ef5c588b/storage_v2/_src_/database/followed.ECD9EQ/schema/pg_catalog.0S1ZNQ.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e93ad911-dbfb-42de-a379-99e7ef5c588b/storage_v2/_src_/database/followed.ECD9EQ/schema/public.abK9xQ.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/schema.prisma" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.prisma" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pnpm-lock.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pnpm-lock.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/api/auth/[...auth].ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/api/auth/[...auth].ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +51,11 @@
     &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;/Users/leoguinan/projects/followed/node_modules/prettier&quot;,
     &quot;ts.external.directory.path&quot;: &quot;/Users/leoguinan/projects/followed/node_modules/typescript/lib&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
+    ]
   }
 }</component>
   <component name="RecentsManager">
@@ -58,7 +77,8 @@
       <workItem from="1670375167401" duration="58000" />
       <workItem from="1670375259459" duration="15275000" />
       <workItem from="1670619347909" duration="33000" />
-      <workItem from="1670636050783" duration="374000" />
+      <workItem from="1670636050783" duration="4718000" />
+      <workItem from="1670870193757" duration="9066000" />
     </task>
     <servers />
   </component>
